@@ -7,20 +7,22 @@
 body{
     padding-top: 10px;
     background-color: black;
+    
 }
 
 
-table,td{
-    padding: 50px;
+#table{
+    padding: 10px;
     border: 5px solid black;
     border-collapse: collapse;
     border-radius: 50px;
-    visibility: visible;
+    visibility: hidden;
+    margin-top: -200px;
 }
 
 
 
-td{
+.td{
     border: 5px outset orange;
     height: 150px;
     width: 150px;
@@ -28,9 +30,10 @@ td{
     color: white;
     font-size: 40px;
     font-family: sans-serif;
+   text-align: center;
 }
 
-td:hover{
+.td:hover{
     background-color: grey;
     color: darkorange;
     border-radius: 10px;
@@ -40,8 +43,9 @@ td:hover{
 
 @media screen and (max-width:700px){
     body{
-        padding-top: 50px;
+        padding-top: 10px;
         background-color: grey;
+        display: inline-block;
         }
     
     table,td{
@@ -72,7 +76,86 @@ span{
 input{
     padding: 10px;
     border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
 }
+
+#imp{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid black;
+    width: 80%;
+    padding: 50px;
+ }
+
+#reset
+{
+    visibility: hidden;
+    letter-spacing: 2px;
+    
+}
+
+#rset{
+    text-align: center;
+    padding-top: 35px;
+   border-radius: 50px;
+   border-color: red;
+   background-color: black;
+   color: white;
+   margin-left: -100px;
+}
+
+
+.reset{
+    border-radius: 40px;
+   border-color: red;
+   background-color: black;
+   color: white;
+}
+
+.reset1{
+    border-radius: 40px;
+    border-color: red;
+    background-color: black;
+    color: white; 
+}
+
+
+#pntable{
+    color: white;
+    height: 80px;
+    width: 300px;
+    padding: 20px;
+    visibility: hidden;
+    float: left;
+    margin-top: auto;
+    margin-left:auto;
+    margin-top: -500px;   
+}
+
+
+@media screen and (max-width:700px){
+    
+#pntable{
+    float: right;
+}
+    
+
+}
+
+
+
+#td1{
+    padding: 20px;
+    border: 5px solid white;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+
+
+
+
 
 
 
